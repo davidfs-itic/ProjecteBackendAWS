@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  aws-iot-backend:
+    build: .
+    container_name: aws-iot-backend
+    restart: unless-stopped
+    
+    # Muntar el fitxer .env
+    env_file:
+      - .env
+    
+    # Muntar els certificats com a volum
+    volumes:
+      - ./certificates:/app/certificates:ro
+    
+    # Logging
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
