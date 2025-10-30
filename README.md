@@ -20,8 +20,8 @@ cd <directori-del-projecte>
 ### 2. Crear entorn virtual (recomanat)
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
 
 ### 3. Instal·lar dependències
@@ -65,7 +65,7 @@ mkdir certificates
 ## ▶️ Execució
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 El programa:
