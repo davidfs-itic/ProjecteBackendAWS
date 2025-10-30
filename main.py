@@ -8,7 +8,7 @@ import threading
 from dotenv import load_dotenv
 
 # Carregar variables d'entorn
-load_dotenv()
+load_dotenv(override=True)
 
 # ============================================
 # CONFIGURACIÓ DES DE .env
