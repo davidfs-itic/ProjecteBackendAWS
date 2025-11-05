@@ -45,6 +45,8 @@ PATH_TO_AMAZON_ROOT_CA=/path/to/AmazonRootCA1.pem
 SUBSCRIBE_TOPIC=escola/#
 PUBLISH_TOPIC=escola
 PUBLISH_INTERVAL=10
+
+CLIENT_ID=nombre_objeto_en_AWS
 ```
 
 ### 5. Col·locar els certificats

@@ -34,7 +34,7 @@ PUBLISH_INTERVAL = int(os.getenv("PUBLISH_INTERVAL", "10"))
 
 # Client ID (opcional, es pot personalitzar)
 CLIENT_ID = os.getenv("CLIENT_ID", f"backend-python-{int(time.time())}")
-
+CLIENT_ID = 'ClientBackend'
 # ============================================
 # VALIDACIÓ DE CONFIGURACIÓ
 # ============================================
