@@ -32,13 +32,7 @@ pip install -r requirements.txt
 
 ### 4. Configurar variables d'entorn
 
-Copia el fitxer `.env.example` a `.env` i omple les teves dades:
-
-```bash
-cp .env.example .env
-```
-
-Edita el fitxer `.env` amb els teus valors:
+Edita un fitxer `.env` amb els teus valors:
 
 ```env
 AWS_IOT_ENDPOINT=your-endpoint.iot.region.amazonaws.com
